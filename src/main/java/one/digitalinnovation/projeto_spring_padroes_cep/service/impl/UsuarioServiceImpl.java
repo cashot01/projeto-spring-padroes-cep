@@ -4,11 +4,15 @@ import one.digitalinnovation.projeto_spring_padroes_cep.model.Endereco;
 import one.digitalinnovation.projeto_spring_padroes_cep.model.Usuario;
 import one.digitalinnovation.projeto_spring_padroes_cep.repository.EnderecoRepository;
 import one.digitalinnovation.projeto_spring_padroes_cep.repository.UsuarioRepository;
+import one.digitalinnovation.projeto_spring_padroes_cep.service.UsuarioService;
+import one.digitalinnovation.projeto_spring_padroes_cep.service.ViaCepService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.Optional;
 
-public class UsuarioServiceImpl {
+@Service
+public class UsuarioServiceImpl implements UsuarioService {
     
     @Autowired
     private UsuarioRepository usuarioRepository;

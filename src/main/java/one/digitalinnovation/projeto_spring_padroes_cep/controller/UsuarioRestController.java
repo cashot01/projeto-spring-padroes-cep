@@ -1,6 +1,7 @@
 package one.digitalinnovation.projeto_spring_padroes_cep.controller;
 
 import one.digitalinnovation.projeto_spring_padroes_cep.model.Usuario;
+
 import one.digitalinnovation.projeto_spring_padroes_cep.service.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

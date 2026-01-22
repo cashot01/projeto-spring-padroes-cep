@@ -1,11 +1,9 @@
 package one.digitalinnovation.projeto_spring_padroes_cep.model;
 
 
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.ManyToOne;
+import jakarta.persistence.*;
 
+@Entity
 public class Usuario {
 
     @Id

@@ -1,6 +1,8 @@
 package one.digitalinnovation.projeto_spring_padroes_cep.service;
 
 import one.digitalinnovation.projeto_spring_padroes_cep.model.Usuario;
+import org.springframework.stereotype.Service;
+
 
 public interface UsuarioService {
     Iterable<Usuario> buscarTodos();
